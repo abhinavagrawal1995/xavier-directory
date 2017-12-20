@@ -1,6 +1,6 @@
 # St. Xavier's Directory App
 
-<a href="https://travis-ci.org/abhinavagrawal1995/xavier-directory"><img src="https://travis-ci.org/abhinavagrawal1995/xavier-directory.svg?branch=master"/></a>
+[![Build Status](https://travis-ci.org/abhinavagrawal1995/xavier-directory.svg?branch=master)](https://travis-ci.org/abhinavagrawal1995/xavier-directory)
 
 ## Publishing Site-
 
