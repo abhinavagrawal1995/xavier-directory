@@ -8,6 +8,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LoginComponent } from './login/login.component';
 import { routing } from './app.routes';
+import { DirectoryComponent } from './directory/directory.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { routing } from './app.routes';
     FooterComponent,
     NavMenuComponent,
     LandingPageComponent,
-    LoginComponent
+    LoginComponent,
+    DirectoryComponent
   ],
   imports: [
     BrowserModule,

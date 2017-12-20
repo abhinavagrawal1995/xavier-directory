@@ -7,11 +7,13 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LoginComponent } from './login/login.component';
+import { DirectoryComponent } from './directory/directory.component';
 
 // Route Configuration
 export const routes: Routes = [
   { path: 'home', component: LandingPageComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'directory', component: DirectoryComponent },
   { path: '**', redirectTo: '/home', pathMatch: 'full' }
 ];
 
