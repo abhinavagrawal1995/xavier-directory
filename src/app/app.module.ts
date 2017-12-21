@@ -9,6 +9,14 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LoginComponent } from './login/login.component';
 import { routing } from './app.routes';
 import { DirectoryComponent } from './directory/directory.component';
+import {FormsModule} from "@angular/forms";
+
+
+import { environment } from '../environments/environment';
+
+import {DataTableModule,SharedModule} from 'primeng/primeng';
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +26,14 @@ import { DirectoryComponent } from './directory/directory.component';
     NavMenuComponent,
     LandingPageComponent,
     LoginComponent,
-    DirectoryComponent
+    DirectoryComponent,
   ],
   imports: [
     BrowserModule,
-    routing
+    FormsModule,
+    DataTableModule,
+    SharedModule,
+    routing,
   ],
   providers: [],
   bootstrap: [AppComponent]
