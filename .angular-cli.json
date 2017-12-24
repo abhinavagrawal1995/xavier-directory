@@ -25,7 +25,6 @@
         "styles.css"
       ],
       "scripts": [
-        "assets/js/firebase.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
