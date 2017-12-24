@@ -7,9 +7,6 @@
     "baseUrl": "",
     "types": []
   },
-  "include": [
-    "../models/**/*.ts"
-  ],
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
