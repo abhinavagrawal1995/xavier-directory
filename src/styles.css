@@ -1,2 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import "assets/css/main.css";
+
+.ui-column-title, .ui-cell-data{
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    word-wrap: break-word;
+    letter-spacing: 0;
+}
+
+.ui-cell-data{
+    font-size: 14px;  
+    line-height: 1 !important;    
+}
