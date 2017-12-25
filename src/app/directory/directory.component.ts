@@ -13,9 +13,9 @@ declare var firebase: any;
 
 export class DirectoryComponent implements OnInit {
   private firebaseDao:any;
-  private people:Person[] = new Array();
+  people:Person[] = new Array();
   private dataReady:boolean = false;
-  private colConfig = [
+  colConfig = [
     {field: 'name', header: 'Name'},
     {field: 'batch', header: 'Batch'},
     {field: 'mobile', header: 'Mobile'},
