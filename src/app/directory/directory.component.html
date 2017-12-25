@@ -7,7 +7,7 @@
         <h1>Directory</h1>
       </header>
       <p-dataTable [value]="people" *ngIf="dataReady" [rows]="15" [paginator]="true" [pageLinks]="3" [responsive]="true" [stacked]="stacked">
-        <p-column *ngFor="let col of colConfig" [field]="col.field" [header]="col.header"></p-column>
+        <p-column *ngFor="let col of colConfig" [field]="col.field" [header]="col.header" [sortable]="true" filterPlaceholder="Search" [filter]="col.field === 'name' || col.field === 'business_category'"></p-column>
       </p-dataTable>
     </div>
   </section>

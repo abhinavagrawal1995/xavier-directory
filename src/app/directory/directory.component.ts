@@ -20,7 +20,7 @@ export class DirectoryComponent implements OnInit {
     {field: 'batch', header: 'Batch'},
     {field: 'mobile', header: 'Mobile'},
     {field: 'company_name', header: 'Company'},
-    {field: 'business_category', header: 'Business Category'},
+    {field: 'business_category', header: 'Category'},
     {field: 'email', header: 'Email'},
     {field: 'landline', header: 'Landline'},
     {field: 'office_address', header: 'Office Address'},

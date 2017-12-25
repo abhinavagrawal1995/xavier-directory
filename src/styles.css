@@ -14,3 +14,7 @@
     font-size: 14px;  
     line-height: 1 !important;    
 }
+
+.ui-column-filter{
+    background: rgba(0, 0, 0, 0.23) !important;
+}
