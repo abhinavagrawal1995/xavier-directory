@@ -15,6 +15,7 @@ import {FormsModule} from "@angular/forms";
 import { environment } from '../environments/environment';
 
 import {DataTableModule,SharedModule} from 'primeng/primeng';
+import { ListComponent } from './list/list.component';
 
 
 
@@ -27,6 +28,7 @@ import {DataTableModule,SharedModule} from 'primeng/primeng';
     LandingPageComponent,
     LoginComponent,
     DirectoryComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,

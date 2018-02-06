@@ -1,0 +1,6 @@
+<ul>
+  <li class="inactive" *ngFor="let row of list" (click)="itemClicked(row); $event.stopPropagation()" [ngClass]="{'active':row.isSelected}">
+    {{row.label}}
+    <list [list]="row.subrows" *ngIf="row.subrows && row.subrows.length" (onStateChanged)="subrowStateChanged(row, $event)"></list>  
+  </li>
+</ul>
